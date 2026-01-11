@@ -19,7 +19,6 @@ class ResolveTenant
                 'message' => 'X-Tenant-ID header is required',
             ], 400);
         }
-
         $tenant = Tenant::where('id', $tenantId)
             ->where('is_active', true)
             ->first();
