@@ -23,7 +23,7 @@ class ResolveTenant
         $tenant = Tenant::where('id', $tenantId)
             ->where('is_active', true)
             ->first();
-
+        
         if (! $tenant) {
             return response()->json([
                 'success' => false,
