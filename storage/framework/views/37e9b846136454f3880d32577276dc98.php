@@ -37,7 +37,7 @@
                         >
                             Log in
                         </a>
-
+                    
                         <?php if(Route::has('register')): ?>
                             <a
                                 href="<?php echo e(route('register')); ?>"
