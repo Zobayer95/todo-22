@@ -18,7 +18,7 @@ trait BelongsToTenant
             }
         });
     }
-
+ 
     public function tenant(): BelongsTo
     {
         return $this->belongsTo(Tenant::class);
