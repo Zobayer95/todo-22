@@ -17,7 +17,7 @@ trait BelongsToTenant
                 $model->tenant_id = app('current_tenant_id');
             }
         });
-    }
+    } 
   
     public function tenant(): BelongsTo
     {
