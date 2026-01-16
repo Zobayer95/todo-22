@@ -7,7 +7,7 @@ use App\Scopes\TenantScope;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 trait BelongsToTenant
-{
+{ 
     protected static function bootBelongsToTenant(): void
     {
         static::addGlobalScope(new TenantScope);
