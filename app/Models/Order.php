@@ -45,7 +45,7 @@ class Order extends Model
     }
 
     public function isPaid(): bool
-    {
+    { 
         return $this->status === OrderStatus::PAID;
     }
 
