@@ -20,7 +20,7 @@ class Order extends Model
         'status',
         'total_amount',
     ];
-
+ 
     protected function casts(): array
     {
         return [
