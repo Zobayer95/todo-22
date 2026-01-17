@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Models;
-
+ 
 use App\Enums\OrderStatus;
 use App\Traits\BelongsToTenant;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
