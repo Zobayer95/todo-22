@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Traits;
- 
+  
 use App\Models\Tenant;
 use App\Scopes\TenantScope;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
