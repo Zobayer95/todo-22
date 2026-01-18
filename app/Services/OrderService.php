@@ -8,7 +8,7 @@ use App\Models\OrderItem;
 use App\Models\Product;
 use Illuminate\Support\Facades\DB;
 use InvalidArgumentException;
- 
+  
 class OrderService
 {
     public function createOrder(int $customerId, array $items): Order
