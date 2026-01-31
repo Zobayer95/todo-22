@@ -3,7 +3,7 @@
 namespace App\Http\Middleware; 
  
 use App\Models\Tenant;
-use Closure;
+use Closure; 
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
